@@ -1,0 +1,60 @@
+body{
+    font-family: "B Nazanin";
+    /*margin:0;*/
+    margin-top: 10px;
+    color:green;
+    /*background:darkgray;*/
+    background:#015249;
+}
+label,input,button{
+    font-family: "B Nazanin";
+    /*color:blue !important;*/
+}
+a{
+    color:darkred;
+    text-decoration:none;
+}
+
+.container{
+    width:100%;
+    margin:auto;
+    max-width:300px;
+    min-height:500px;
+    position:relative;
+    background-color: #C1E1A6;
+    box-shadow:0 12px 15px 0 rgba(300,300,300,.2),0 17px 50px 0 rgba(300,300,300,.48);
+}
+
+.input{
+     border:none;
+     padding:15px 20px;
+     border-radius:15px;
+     background:rgba(255,255,255,.4);
+ }
+.form-group .form-check .form-check-label:checked + label{
+    color: #fff;
+}
+.form-group .form-check .form-check-label:checked + label .icon{
+    background: #1161ee;
+}
+
+
+
+button{
+    background-color: forestgreen !important;
+}
+button:hover{
+    background-color: green !important;
+}
+.line{
+    height:1px;
+    margin:20px 0 5px 0;
+    /*background:rgba(255,255,255,.3);*/
+    background:green;
+}
+.return{
+    text-align: center;
+}
+.forgot{
+    text-align: center;
+}
